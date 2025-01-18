@@ -34,7 +34,7 @@ kill PID
 
 <tabs>
     <tab id="Linux-install" title="Linux">
-<code-block lang="bash" >
+<code-block lang="Bash" >
 zip -r data.zip ./data
 </code-block>
 
@@ -42,7 +42,7 @@ zip -r data.zip ./data
 </tab>
 <tab id="Windows-install" title="Windows">
 
-<code-block lang="powershell" >
+<code-block lang="PowerShell" >
 Compress-Archive -Path .\data -DestinationPath data.zip
 </code-block>
 
@@ -50,7 +50,7 @@ Compress-Archive -Path .\data -DestinationPath data.zip
 </tab>
 <tab id="MacOS-install" title="MacOS">
 
-<code-block lang="bash" >
+<code-block lang="Bash" >
 zip -r data.zip ./data
 </code-block>
 
