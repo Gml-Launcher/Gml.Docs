@@ -24,6 +24,7 @@
                 </toc-element>
                 <toc-element topic="profiles-add-files.md">
                     <toc-element topic="Работа-с-модами.md"/>
+                    <toc-element topic="profiles-backups.md"/>
                 </toc-element>
                 <toc-element topic="gml-white-lists.md">
                     <toc-element topic="gml-white-lists-files.md"/>
