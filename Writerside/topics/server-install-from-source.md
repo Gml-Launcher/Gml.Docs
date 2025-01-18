@@ -101,7 +101,6 @@ docker compose up -d --build
 
 Пожалуйста, убедитесь, что Docker установлен и работает на вашем компьютере для выполнения этой команды.
 
-
 После выполнения команды Docker загрузит необходимые образы и запустит проект.
 После запуска проекта, вы сможете открыть его в браузере, используя следующие адреса:
 
@@ -115,32 +114,32 @@ docker compose up -d --build
         <p>
             <span>WebApi</span>
             <a href="http://localhost:5000">http://localhost:5000</a>
+            (<code>Основной сервис</code>)
         </p>
     </step>
     <step>
         <p>
             <span>Web Dashboard</span>
             <a href="http://localhost:5003">http://localhost:5003</a>
-            <br/>
-            <code>необходимо пройти предварительную регистрацию</code>
+            (<code>Необходима регистрация</code>)
         </p>
     </step>
     <step>
         <p>
-            <span>Web FileBrowser (Удален с версии 0.1.0-rc1 <a href="https://discord.com/channels/585873186512437248/1238063781028823090/1279787369490288652">Описание</a>)</span>
-            <a href="http://localhost:5005">http://localhost:5005</a>
-            <br/>
-            <code>логин и пароль по умолчанию: admin:admin</code>
+            <span>Gml.Web.Skin.Service </span>
+            <a href="http://localhost:5006">http://localhost:5006</a>
+            (<code>Недоступен за пределами контейнера</code>)
         </p>
     </step>
-    <step>
-        <p>
-            <span>Minio S3 (Распределенный файловый сервер)</span>
-            <a href="http://localhost:5010/">http://localhost:5010</a>
-            <br/>
-            <code>логин и пароль по умолчанию: minioadmin:minioadmin </code>
-        </p>
-    </step>
+<p>
+<br />
+<b>Внимание!</b> 
+<br />
+FileBrowser удален с версии 0.1.0-rc1 <a target="_blank" href="https://discord.com/channels/585873186512437248/1238063781028823090/1279787369490288652">Описание</a>
+<br />
+Minio удален с версии 1.0.3 <a href="https://discord.com/channels/585873186512437248/1238063781028823090/1323642696790835280" target="_blank" >Описание</a>
+</p>
 </procedure>
 
-Кроме того, я заметил, что ваш `.env` файл изменился. Если требуется, пожалуйста, внесите соответствующие изменения в документацию.
+Кроме того, я заметил, что ваш `.env` файл изменился. Если требуется, пожалуйста, внесите соответствующие изменения в
+документацию.
