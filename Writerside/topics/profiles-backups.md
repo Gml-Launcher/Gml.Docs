@@ -42,7 +42,7 @@ zip -r data.zip ./data
 </tab>
 <tab id="Windows-install" title="Windows">
 
-<code-block lang="PowerShell" >
+<code-block lang="Bash" >
 Compress-Archive -Path .\data -DestinationPath data.zip
 </code-block>
 
