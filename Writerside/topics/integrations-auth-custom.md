@@ -76,12 +76,18 @@ fetch("http://ВАШ_АДРЕС", requestOptions)
         </code-block>
     </tab>
     <tab title="Пример вашего ответа">
-        <code class="code">200</code> - Успешная авторизация
+        <code class="code">200</code> - Успешная авторизация *
         <code-block lang="json">
         {
             "Login": "GamerVII",
             "UserUuid": "c07a9841-2275-4ba0-8f1c-2e1599a1f22f",
             "Message": "Успешная авторизация"
+        }
+        </code-block>
+        <code class="code">401</code> - Ошибка аутентификации *
+        <code-block lang="json">
+        {
+            "Message": "Неверный логин или пароль"
         }
         </code-block>
         <code class="code">404</code> - Пользователь не найден
@@ -90,14 +96,15 @@ fetch("http://ВАШ_АДРЕС", requestOptions)
             "Message": "Пользователь не найден"
         }
         </code-block>
-        <code class="code">401</code> - Ошибка аутентификации
+        <code class="code">403</code> - Пользователь не имеет доступа или заблокирован
         <code-block lang="json">
         {
-            "Message": "Неверный логин или пароль"
+            "Message": "Пользователь заблокирован. Причина: Раздача на спавне"
         }
         </code-block>
         <p>* Обратите внимание, что не обязательно заполнять тело ответа, достаточно вернуть StatusCode (Обязательно)
-        Поля <code>Message</code> и <code>UserUuid</code> будут сгенерированы автоматически</p>
+        Поля <code>Message</code> и <code>UserUuid</code> будут сгенерированы автоматически. <br /><br />
+        * Ендпоинты <b>200</b> и <b>401</b> необходимо реализовать <i><b>Обязательно</b></i></p>
     </tab>  
 
 </tabs>
@@ -110,3 +117,5 @@ fetch("http://ВАШ_АДРЕС", requestOptions)
 1. Выберите в панель управления раздел:
 ```Интеграции``` -> ```Аутентификация``` -> ```Аутентификация``` -> ```Собственная аутентификация```
 2. Вставьте ссылку на реализованный endoint авторизации ```Gml.Backend - Ваш сайт```
+
+> **Важно!** Примеры реализации можете посмотреть [на странице Github](https://github.com/GamerVII-NET/Gml.Modules.Auth)
