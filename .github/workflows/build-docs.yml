@@ -20,7 +20,7 @@ env:
   ALGOLIA_INDEX_NAME: "prod_WIKI"
   ALGOLIA_KEY: "${{ secrets.ALGOLIA_KEY }}"
   CONFIG_JSON_PRODUCT: "RW"
-  CONFIG_JSON_VERSION: "1.0.3"
+  CONFIG_JSON_VERSION: "1.0.5"
 
 jobs:
   build:
