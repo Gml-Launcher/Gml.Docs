@@ -38,6 +38,9 @@
                 <toc-element topic="faq-gml-skins.md"/>
                 <toc-element topic="gml-integrations-news.md">
                     <toc-element topic="gml-integrations-news-vk.md"/>
+                    <toc-element topic="gml-integrations-news-unicore.md"/>
+                    <toc-element topic="gml-integrations-news-azuriom.md"/>
+                    <toc-element topic="gml-integrations-news-custom.md"/>
                 </toc-element>
             </toc-element>
             <toc-element topic="Gml-Launcher.md">
