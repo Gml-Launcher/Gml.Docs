@@ -36,6 +36,9 @@
                     <toc-element topic="gml-auth-azuriom.md"/>
                 </toc-element>
                 <toc-element topic="faq-gml-skins.md"/>
+                <toc-element topic="gml-integrations-news.md">
+                    <toc-element topic="gml-integrations-news-vk.md"/>
+                </toc-element>
             </toc-element>
             <toc-element topic="Gml-Launcher.md">
                 <toc-element topic="Installation.md"/>
