@@ -75,4 +75,8 @@
         <description>Created after removal of "Бекапирование" from Recloud Wiki</description>
         <accepts>profiles-build.html</accepts>
     </rule>
+    <rule id="602fe47b">
+        <description>Created after removal of "Прочее" from Recloud Wiki</description>
+        <accepts>gml-server-other.html</accepts>
+    </rule>
 </rules>
