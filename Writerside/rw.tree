@@ -72,16 +72,16 @@
                 </toc-element>
             </toc-element>
         </toc-element>
+        <toc-element topic="gml-modules.topic">
+            <toc-element topic="gml-module-guide.md">
+                <toc-element topic="gml-module-guide-backend.md"/>
+            </toc-element>
+        </toc-element>
         <toc-element topic="gml-security.md">
             <toc-element topic="gml-security-easy.md"/>
         </toc-element>
         <toc-element topic="gml-faq.md">
             <toc-element topic="faq-details.md"/>
-        </toc-element>
-    </toc-element>
-    <toc-element topic="gml-modules.topic">
-        <toc-element topic="gml-module-guide.md">
-            <toc-element topic="gml-module-guide-backend.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="Section-Starting-Page.topic">
