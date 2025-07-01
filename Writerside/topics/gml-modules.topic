@@ -17,32 +17,73 @@
             <a href="server-requirements.md" type="documents"/>
         </spotlight>
         <primary>
-            <title>Официальные модули</title>
-            <card href="integrations-auth.md" summary="Различные способы аутентификации пользователей в лаунчере">Модули
-                аутентификации
-            </card>
-            <card href="gml-integrations-news.md" summary="Интеграция новостных лент из различных источников">Модули
-                новости
-            </card>
-            <card href="profiles.md" summary="Управление профилями и конфигурациями игры">Модули профилей</card>
-            <card href="TBank-SDK.md" summary="Интеграция с платежными системами">Платежные модули</card>
+            <title>Разделы</title>
+            <a href="getting-started.md">Описание проекта</a>
+            <a href="allowed-minecraft-versions.md"/>
         </primary>
         <secondary>
             <title>Модули сообщества</title>
-            <card href="faq-gml-skins.md" summary="Интеграция с сервисами скинов для Minecraft">Модули скинов</card>
-            <card href="Работа-с-модами.md" summary="Работа с модификациями Minecraft">Модули для работы с модами</card>
+            <a href="getting-started.md">Описание проекта</a>
+            <a href="allowed-minecraft-versions.md"/>
         </secondary>
         <misc>
             <cards>
-                <title>Создание собственных модулей</title>
-                <card href="integrations-auth-custom.md" summary="Пример создания собственного модуля аутентификации">
-                    Создание модуля аутентификации
-                </card>
-                <card href="launcher-edit.md"
-                      summary="Редактирование компонентов лаунчера для создания собственных модулей">Редактирование
-                    лаунчера
-                </card>
+                <title>Другие важные темы как широкие карточки</title>
+                <a href="tbank-payment-settings.md"/>
+                <a href="tbank-payments-start.md" summary="How to initiate payments"/>
+                <a href="tbank-payments-form.md">Полные детали формы</a>
+                <a href="tbank-payments-card.md" summary="Card payment methods">Платежи по картам</a>
             </cards>
+
+            <cards narrow="true">
+                <title>Другие важные темы как узкие карточки</title>
+                <a href="tbank-payments-tbank.md"/>
+                <a href="tbank-payments-fps.md"/>
+                <a href="tbank-payments-mir.md" summary="Efficient MIR payment integration"/>
+                <a href="tbank-payment-settings.md">Настройка платежей</a>
+                <a href="tbank-payments-start.md">Руководство по настройке</a>
+                <a href="tbank-payments-form.md" summary="Form details and examples">Детали формы</a>
+            </cards>
+
+            <links>
+                <group>
+                    <title>Другие связанные темы в виде ссылок</title>
+                    <a href="tbank-payments-form.md"/>
+                    <a href="tbank-payments-card.md" summary="Detailed card payment guide"/>
+                    <a href="tbank-payments-tbank.md">Опции платежей TBank</a>
+                    <a href="tbank-payments-fps.md" summary="FPS payment details">Руководство по платежам СБП</a>
+                </group>
+                <group>
+                    <title>Две в строке</title>
+                    <a href="tbank-payments-mir.md"/>
+                    <a href="tbank-payment-settings.md" summary="Optimize your payment settings"/>
+                </group>
+            </links>
+
+            <links narrow="true">
+                <group>
+                    <title>Больше связанных тем</title>
+                    <a href="tbank-payments-tbank.md"/>
+                    <a href="tbank-payments-fps.md" summary="FPS integration details"/>
+                    <a href="tbank-payments-mir.md">Интеграция платежей MIR</a>
+                    <a href="tbank-payment-settings.md" summary="Easy payment configuration">Настройка платежей</a>
+                </group>
+                <group>
+                    <title>Три в строке</title>
+                    <a href="tbank-payments-card.md"/>
+                    <a href="tbank-payments-start.md"/>
+                    <a href="tbank-payments-form.md" summary="Comprehensive form guide">Руководство по
+                        форме</a>
+                    <a href="tbank-payments-fps.md">Платежи СБП</a>
+                </group>
+                <group>
+                    <title>Каждая группа узкая</title>
+                    <a href="tbank-payments-mir.md"/>
+                    <a href="tbank-payment-settings.md" summary="Improving payment configurations"/>
+                    <a href="tbank-payments-card.md">Методы оплаты картой</a>
+                    <a href="tbank-payments-start.md">Руководство по началу работы</a>
+                </group>
+            </links>
         </misc>
     </section-starting-page>
 </topic>
