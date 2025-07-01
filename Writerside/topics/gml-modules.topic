@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic id="gml-modules"
+       title="Модули"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <!--    A section combines multiple topics dedicated to a specific subject.
+                Add a starting page to provide an overview of the topics in the section.
+                Start with two topics you want to promote in the <spotlight> group,
+                several important topics in the <primary> group (for example, where to start),
+                several less important topics in the <secondary> group (for example, more advanced topics),
+                and optionally add any other relevant topics in the <misc> group as cards and lists of links
+                (maybe related topics from other sections).
+                Only the spotlight section is limited to two topics.
+                For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Модули Gml</title>
+        <description>
+            Модули в Gml - это компоненты, расширяющие функциональность лаунчера и серверной части.
+            Они позволяют интегрировать различные сервисы, добавлять новые возможности и настраивать систему под ваши
+            потребности.
+        </description>
+
+        <spotlight>
+            <card badge="account" href="integrations-auth.md"
+                  summary="Модули аутентификации позволяют настроить различные способы авторизации пользователей">Модули
+                аутентификации
+            </card>
+            <card badge="search" href="gml-integrations-news.md"
+                  summary="Модули новостей позволяют интегрировать новостные ленты из различных источников">Модули
+                новостей
+            </card>
+        </spotlight>
+
+        <primary>
+            <title>Официальные модули</title>
+            <card href="integrations-auth.md" summary="Различные способы аутентификации пользователей в лаунчере">Модули
+                аутентификации
+            </card>
+            <card href="gml-integrations-news.md" summary="Интеграция новостных лент из различных источников">Модули
+                новостей
+            </card>
+            <card href="profiles.md" summary="Управление профилями и конфигурациями игры">Модули профилей</card>
+            <card href="TBank-SDK.md" summary="Интеграция с платежными системами">Платежные модули</card>
+        </primary>
+
+        <secondary>
+            <title>Модули сообщества</title>
+            <card href="faq-gml-skins.md" summary="Интеграция с сервисами скинов для Minecraft">Модули скинов</card>
+            <card href="Работа-с-модами.md" summary="Работа с модификациями Minecraft">Модули для работы с модами</card>
+            <card href="gml-white-lists.md" summary="Управление белыми списками файлов и папок">Модули белых списков
+            </card>
+        </secondary>
+
+        <misc>
+            <cards>
+                <title>Создание собственных модулей</title>
+                <card href="integrations-auth-custom.md" summary="Пример создания собственного модуля аутентификации">
+                    Создание модуля аутентификации
+                </card>
+                <card href="launcher-edit.md"
+                      summary="Редактирование компонентов лаунчера для создания собственных модулей">Редактирование
+                    лаунчера
+                </card>
+            </cards>
+        </misc>
+    </section-starting-page>
+
+</topic>

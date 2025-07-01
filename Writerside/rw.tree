@@ -79,6 +79,11 @@
             <toc-element topic="faq-details.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="gml-modules.topic">
+        <toc-element topic="gml-module-guide.md">
+            <toc-element topic="gml-module-guide-backend.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Section-Starting-Page.topic">
         <toc-element topic="TBank-SDK.md">
         </toc-element>
