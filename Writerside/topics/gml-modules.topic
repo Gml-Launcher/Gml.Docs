@@ -13,14 +13,8 @@
             потребности.
         </description>
         <spotlight>
-            <card badge="account" href="integrations-auth.md"
-                  summary="Модули аутентификации позволяют настроить различные способы авторизации пользователей">Модули
-                аутентификации
-            </card>
-            <card badge="search" href="gml-integrations-news.md"
-                  summary="Модули новостей позволяют интегрировать новостные ленты из различных источников">Модули
-                новости
-            </card>
+            <a href="servers-minecraft-info.md" type="server"/>
+            <a href="server-requirements.md" type="documents"/>
         </spotlight>
         <primary>
             <title>Официальные модули</title>
