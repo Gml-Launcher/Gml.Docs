@@ -61,6 +61,9 @@ MINIO_ROOT_USER=GamerVII
   # root пароль панели управления
 MINIO_ROOT_PASSWORD=waefawegferyjerthdrthrtrdthdr
 
+  # Включить Swagger
+SWAGGER_ENABLED=true
+
   # Настройки внешнего доступа
   # Порты, на которых будут работать приложения
   # адрес консоли (:5009 или 10.2.0.1:5009)
