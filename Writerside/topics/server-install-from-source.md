@@ -85,6 +85,7 @@ PORT_GML_SKINS=5006
 
   # Микросервисы:
 SERVICE_TEXTURE_ENDPOINT=http://gml-web-skins:8085
+MARKET_ENDPOINT=https://market.gml.recloud.tech
 ```
 
 Отредактируйте или создайте файл `.env` в папке `src\Gml.Web.Client\.env`
