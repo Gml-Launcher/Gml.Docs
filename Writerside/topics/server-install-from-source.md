@@ -93,6 +93,7 @@ MARKET_ENDPOINT=https://gml-market.recloud.tech
 ```yaml
  # Адрес к Web Api
  NEXT_PUBLIC_BACKEND_URL=http://localhost:5000/api/v1
+ NEXT_PUBLIC_MARKETPLACE_URL=https://gml-market.recloud.tech
 ```
 
 #### Шаг 5: Запуск проекта с использованием Docker

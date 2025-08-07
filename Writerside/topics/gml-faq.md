@@ -26,6 +26,7 @@
     ```
     # Адрес к Web Api
     NEXT_PUBLIC_BACKEND_URL=http://localhost:5000/api/v1
+    NEXT_PUBLIC_MARKETPLACE_URL=https://gml-market.recloud.tech
     ```
   > Внимание! Не должно быть ```/``` в конце адреса и выбран верный протокол ```http``` или ```https```
 
