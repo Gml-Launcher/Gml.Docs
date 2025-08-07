@@ -197,7 +197,7 @@ if ($newsItems && is_array($newsItems)) {
 
 ### C#
 
-```csharp
+```C#
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
