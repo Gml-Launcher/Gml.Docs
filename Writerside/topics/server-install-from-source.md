@@ -88,7 +88,7 @@ SERVICE_TEXTURE_ENDPOINT=http://gml-web-skins:8085
 MARKET_ENDPOINT=https://gml-market.recloud.tech
 ```
 
-Отредактируйте или создайте файл `.env` в папке `src\Gml.Web.Client\.env`
+Отредактируйте или создайте файл `.env` в папке `src/Gml.Web.Client/.env`
 
 ```yaml
  # Адрес к Web Api
