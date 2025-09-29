@@ -18,7 +18,7 @@
 Откройте терминал и выполните следующую команду для загрузки установочного скрипта:
 
 ```bash
-curl -O https://raw.githubusercontent.com/GamerVII-NET/Gml.Backend.Installer/master/gml-installer-rus.sh
+curl -O https://raw.githubusercontent.com/Gml-Launcher/Gml.Backend.Installer/refs/heads/master/installer.sh
 ```
 
 Эта команда загружает установочный скрипт из репозитория GitHub.
@@ -28,7 +28,7 @@ curl -O https://raw.githubusercontent.com/GamerVII-NET/Gml.Backend.Installer/mas
 После загрузки скрипта вам нужно сделать его исполняемым, выполнив:
 
 ```bash
-chmod +x ./gml-installer-rus.sh
+chmod +x ./installer.sh
 ```
 
 Эта команда дает скрипту разрешение на запуск в вашей системе.
@@ -38,7 +38,7 @@ chmod +x ./gml-installer-rus.sh
 Теперь вы можете начать установку, выполнив:
 
 ```bash
-./gml-installer-rus.sh
+./installer.sh --version v2025.2
 ```
 
 Скрипт проведет вас через процесс установки с подсказками на русском языке. Следуйте инструкциям на экране для
